@@ -35,5 +35,6 @@ puts markdown.to_html
 
 ![](images/fig3.png?raw=true)
 
-
+A directory has been created on the directory where I have crete the original git repository. This contains à .txt file "0001-Text-text-patch-file".
+![](images/fig4.png?raw=true)
 Last Update: 3.07.2020
