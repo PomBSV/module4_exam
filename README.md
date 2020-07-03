@@ -60,6 +60,8 @@ git format-patch -1 8b6a1d101d44747c1221ca324b972ad73bd871ef -o patches
 
 ![](images/fig5.png?raw=true)
 
+At the end, we dont forget to stage, commit and push the changes so we have the changes in the new branch.
 
-### 
+
+
 Last Update: 3.07.2020
