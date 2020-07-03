@@ -1,5 +1,5 @@
 # CAS-DAS UNIBE 2019-2020
-## Module 5: GitHub repository, patch file, documentation techniques
+## Module 4: GitHub repository, patch file, documentation techniques
 
 ### Maya Polanco
 
@@ -32,12 +32,15 @@ To remember:
 
 ``` 
 ### 2.Checkout the branch where the change we want to replicate has been done. 
-The command git fomrat..is used to create a patch file, where we write the name of the branch which is the branch where we want to apply the changes,"brach_where_i_want_to_copy" git is going to compare the 2 branches and we will get the differences in the patch file. Git will save the patch file in a directory on the project root calle 'patches'.
+The command git format-patch ...... is used to create a patch file, where we write the name of the branch which is the branch where we want to apply the changes,"brach_where_i_want_to_copy" git is going to compare the 2 branches and we will get the differences in the patch file. Git will save the patch file in a directory on the project root calle 'patches'.
 
 ![](images/fig3.png?raw=true)
 
 A directory has been created on the directory where I have crete the original git repository. This contains à .txt file "0001-Text-text-patch-file".
+
 ![](images/fig4.png?raw=true)
+
+
 The name of the patch file contains a sequences plus the text of the commit.
 
 In case we have many patches created, we choose the one we want to apply. Using the hash number, using the command git log.
