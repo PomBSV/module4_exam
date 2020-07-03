@@ -25,24 +25,15 @@ We check the change that we would like to apply to the new branch.
 
 ![](images/fig2.png?raw=true)
 
-
-2.Checkout the branch where the change we want to replicate has been done
-
-
-command
-```ruby
-git format-patch brach_where_i_want_to_copy -o patches
-puts markdown.to_html
-```
 To remember: 
 ```
 'branch_test_patch': where we have the change for first time
 "brach_where_i_want_to_copy": branch where I want to apply the change
 puts markdown.to_html
 ``` 
-Command to create a patch file, where we write the name of the branch which is the branch where we want to apply the changes,"brach_where_i_want_to_copy" git is going to compare the 2 branches and we will get the differences in the patch file. Git will save the patch file in a directory on the project root calle 'patches'.
+2.Checkout the branch where the change we want to replicate has been done. The command git fomrat..is used to create a patch file, where we write the name of the branch which is the branch where we want to apply the changes,"brach_where_i_want_to_copy" git is going to compare the 2 branches and we will get the differences in the patch file. Git will save the patch file in a directory on the project root calle 'patches'.
 
-
+![](images/fig3.png?raw=true)
 
 
 Last Update: 3.07.2020
