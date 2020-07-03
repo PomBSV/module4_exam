@@ -8,7 +8,7 @@
 
 1. Git repository and patch file
 
-![](images/image1.png?raw=true)
+![](images/fig1.png?raw=true)
 
 General idea
 Objective
